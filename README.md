@@ -1,4 +1,6 @@
 # redux-analytics-middleware
+[![version](https://img.shields.io/npm/v/redux-analytics-middleware.svg?style=flat-square)](http://npm.im/redux-analytics-middleware)
+[![MIT License](https://img.shields.io/npm/l/redux-analytics-middleware.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 Simple `redux` middleware for analytics
 
