@@ -17,7 +17,7 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import analyticsMiddleware from 'redux-analytics-middleware';
 import * as reducers from './reducers';
 
-let reducer = combineReducers(reducers)
+let reducer = combineReducers(reducers);
 // applyMiddleware supercharges createStore with middleware:
 let store = createStore(reducer, applyMiddleware(analyticsMiddleware));
 ```
