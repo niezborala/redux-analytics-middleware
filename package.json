@@ -1,0 +1,24 @@
+{
+  "name": "redux-analytics-middleware",
+  "version": "1.0.0",
+  "description": "Simple redux middleware for analytics",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niezborala/redux-analytics-middleware.git"
+  },
+  "keywords": [
+    "redux",
+    "middleware",
+    "analytics"
+  ],
+  "author": "Marcin Niezborała <dev@niezborala.pl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niezborala/redux-analytics-middleware/issues"
+  },
+  "homepage": "https://github.com/niezborala/redux-analytics-middleware#readme"
+}
