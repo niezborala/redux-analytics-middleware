@@ -1,4 +1,4 @@
-import EventEmitter from 'events';
+const EventEmitter = require('events');
 
 window.analytics = new EventEmitter();
 
@@ -16,4 +16,4 @@ const analyticsMiddleware = store => next => action => {
   return next(action);
 };
 
-export default analyticsMiddleware;
+module.exports = analyticsMiddleware;
