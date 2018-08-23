@@ -4,13 +4,13 @@
 
 Simple `redux` middleware for analytics
 
-##Installation
+## Installation
 
 ```bash
 $ npm install --save redux-analytics-middleware
 ```
 
-##Quick Start
+## Quick Start
 
 To start using `redux-analytics-middleware` add following code:
 
@@ -24,7 +24,7 @@ let reducer = combineReducers(reducers);
 let store = createStore(reducer, applyMiddleware(analyticsMiddleware));
 ```
 
-##Examples
+## Examples
 
 To listen for events we can use:
 
